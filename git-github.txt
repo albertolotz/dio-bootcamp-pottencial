@@ -1,0 +1,7 @@
+Criação chave ssh - ok
+
+-Comandos Git.
+
+git clone
+git commit
+git push
