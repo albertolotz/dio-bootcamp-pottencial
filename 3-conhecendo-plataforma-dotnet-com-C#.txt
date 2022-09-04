@@ -16,7 +16,23 @@ core na versão 5.
 
 *Compilador converte linguagem de alto nivel para baixo nivel.
 
+compilador--> C#, Java - alto nivel para baixo nivel
 
+transpilador--> javascript, PHP - alto nivel para alto nivel. 
 
+3.2 - Introdução as IDEs e Configuração de Ambiente .NET
 
+IDE -> Ambiente de desemvolvimento integrado.
+VSCode-> editor de texto.
 
+instalar dotnet
+
+sdk - kit desemvolvimento codigo fonte para programar.
+runtime - para executar no cliente.
+
+Recursos
+    • Documentação do .NET: https://aka.ms/dotnet-docs
+    • Documentação do SDK: https://aka.ms/dotnet-sdk-docs
+    • Notas sobre a Versão: https://aka.ms/dotnet6-release-notes
+    • Tutoriais: https://aka.ms/dotnet-tutorials
+d
