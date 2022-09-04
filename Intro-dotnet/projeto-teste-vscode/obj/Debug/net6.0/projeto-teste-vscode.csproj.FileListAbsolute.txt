@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\bin\Debug\net6.0\projeto-teste-vscode.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\bin\Debug\net6.0\projeto-teste-vscode.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\bin\Debug\net6.0\projeto-teste-vscode.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\bin\Debug\net6.0\projeto-teste-vscode.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\bin\Debug\net6.0\projeto-teste-vscode.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\refint\projeto-teste-vscode.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\projeto-teste-vscode.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\projeto-teste-vscode\obj\Debug\net6.0\ref\projeto-teste-vscode.dll

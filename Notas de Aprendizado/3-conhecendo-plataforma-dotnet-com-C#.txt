@@ -35,4 +35,7 @@ Recursos
     • Documentação do SDK: https://aka.ms/dotnet-sdk-docs
     • Notas sobre a Versão: https://aka.ms/dotnet6-release-notes
     • Tutoriais: https://aka.ms/dotnet-tutorials
-d
+
+criação de um novo projeto
+dotnet new terminal --> cria um projeto prompt comando.
+dotnet run --> executa o programa.
