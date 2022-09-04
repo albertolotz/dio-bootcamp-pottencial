@@ -39,3 +39,28 @@ Recursos
 criação de um novo projeto
 dotnet new terminal --> cria um projeto prompt comando.
 dotnet run --> executa o programa.
+
+
+3.3 Sintaxe e Tipos de Dados em C#
+Cuidado com mudança de versão do projeto.
+Solution = agrupamento de projetos.
+
+*Classe - Abstração POO.
+Atributos -> metodos
+Obj mundo real -> Obj na programação p/ implementat ações.
+Abstração represente no seu programa.
+Ex: Classe Pessoa 
+#Atributos
+ Nome: string
+ Idade: int
+#Metodos
+ Apresentar()
+
+Metodo = Ação que a classe vai fazer/realizar
+
+****TODO NOME DE CLASSE COMEÇA COM LETRA MAIUSCULA ****
+****Representar primeiro atributos depois metodos ****
+NameSpace = Caminho para classe.
+
+Convenção = padrão da comunidade
+C# = camelCase e PascalCase ;
