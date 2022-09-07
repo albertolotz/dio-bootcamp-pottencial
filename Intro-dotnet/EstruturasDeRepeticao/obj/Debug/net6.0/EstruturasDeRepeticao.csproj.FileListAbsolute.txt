@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\bin\Debug\net6.0\EstruturasDeRepeticao.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\bin\Debug\net6.0\EstruturasDeRepeticao.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\bin\Debug\net6.0\EstruturasDeRepeticao.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\bin\Debug\net6.0\EstruturasDeRepeticao.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\bin\Debug\net6.0\EstruturasDeRepeticao.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\refint\EstruturasDeRepeticao.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\EstruturasDeRepeticao.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\EstruturasDeRepeticao\obj\Debug\net6.0\ref\EstruturasDeRepeticao.dll
