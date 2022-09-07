@@ -1,0 +1,12 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\bin\Debug\net6.0\CommonClasses.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\bin\Debug\net6.0\CommonClasses.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\bin\Debug\net6.0\CommonClasses.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\refint\CommonClasses.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\CommonClasses.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\CommonClasses\obj\Debug\net6.0\ref\CommonClasses.dll

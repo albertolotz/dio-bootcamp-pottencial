@@ -1,0 +1,36 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "OrganizacaoDeUmPrograma/1.0.0": {
+        "dependencies": {
+          "CommonClasses": "1.0.0"
+        },
+        "runtime": {
+          "OrganizacaoDeUmPrograma.dll": {}
+        }
+      },
+      "CommonClasses/1.0.0": {
+        "runtime": {
+          "CommonClasses.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "OrganizacaoDeUmPrograma/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "CommonClasses/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
