@@ -72,3 +72,13 @@ Convert. xxx
 Parse = converte str para numeros --- int.Parse
 Parse não aceita nulo
 Convert aceita nulo, melhor forma da usar.
+tryparse = maneira segura de realizar uma conversao
+
+Operadores Aritméticos em C#
++
+-
+*
+/
+% Modulos, resto da divisao
+++
+--

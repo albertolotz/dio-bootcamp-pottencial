@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\bin\Debug\net6.0\OperadoresAritimeticos.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\bin\Debug\net6.0\OperadoresAritimeticos.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\bin\Debug\net6.0\OperadoresAritimeticos.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\bin\Debug\net6.0\OperadoresAritimeticos.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\bin\Debug\net6.0\OperadoresAritimeticos.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\refint\OperadoresAritimeticos.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\OperadoresAritimeticos.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OperadoresAritimeticos\obj\Debug\net6.0\ref\OperadoresAritimeticos.dll
