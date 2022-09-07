@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\bin\Debug\net6.0\TiposDeOperadores.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\bin\Debug\net6.0\TiposDeOperadores.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\bin\Debug\net6.0\TiposDeOperadores.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\bin\Debug\net6.0\TiposDeOperadores.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\bin\Debug\net6.0\TiposDeOperadores.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\refint\TiposDeOperadores.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\TiposDeOperadores.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\TiposDeOperadores\obj\Debug\net6.0\ref\TiposDeOperadores.dll

@@ -8,6 +8,7 @@ decimal preco = 1.80m;
 bool condicao = true;
 decimal total = quantidade * preco;
 DateTime dataVenda = DateTime.Now.AddDays(5).AddHours(2);
+
 Console.WriteLine(apresentacao);
 Console.WriteLine("Valor da variavel quantidade: " + quantidade);
 Console.WriteLine("Valor da variavel altura: " + altura.ToString("0.00"));

@@ -64,3 +64,11 @@ NameSpace = Caminho para classe.
 
 Convenção = padrão da comunidade
 C# = camelCase e PascalCase ;
+
+Tipos de Operadores em C#
+= atrobuição, altera o valor
+Cast casting = converção entre tipos de dados em variaveis.
+Convert. xxx
+Parse = converte str para numeros --- int.Parse
+Parse não aceita nulo
+Convert aceita nulo, melhor forma da usar.
