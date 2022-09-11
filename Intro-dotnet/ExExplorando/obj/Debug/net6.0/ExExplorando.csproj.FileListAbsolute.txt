@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\ExExplorando.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\ExExplorando.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\ExExplorando.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\ExExplorando.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\ExExplorando.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\refint\ExExplorando.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ref\ExExplorando.dll

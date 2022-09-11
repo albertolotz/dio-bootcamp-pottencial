@@ -6,5 +6,5 @@ build_property.ProjectTypeGuids =
 build_property.InvariantGlobalization = 
 build_property.PlatformNeutralAssembly = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
-build_property.RootNamespace = OrganizacaoDeUmPrograma
-build_property.ProjectDir = c:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\OrganizacaoDeUmPrograma\OrganizacaoDeUmPrograma\
+build_property.RootNamespace = ExExplorando
+build_property.ProjectDir = C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\

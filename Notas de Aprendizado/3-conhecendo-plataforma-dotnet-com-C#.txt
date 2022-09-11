@@ -82,3 +82,37 @@ Operadores Aritméticos em C#
 % Modulos, resto da divisao
 ++
 --
+
+nos metodos 
+Void = não retorna nada
+tipo de dado = faz um retorno, como uma função.
+Ex:
+public void Somar(int x, int y)
+{
+   Console.WriteLine($"{x} + {y} = {x + y}");
+}
+
+public int Somar(int x, int y)
+{
+   Console.WriteLine($"{x} + {y} = {x + y}");
+   return x+y; 	
+}
+
+
+Propriedades, Métodos e Construtores com C#
+get = obtendo valor que armazenou
+set = atribuindo valor quando utiliza sinal de =
+
+Editor -> Code Leans - desabilitado para não mostrar se a varial esta em uso.
+
+=> body expressions
+
+enapsulamento = é a proteção de um  campo para ser modificado dentro da classe.
+
+void não retorna nada
+int, string, tipo de dado faz retorno;
+
+construtores
+criar valores padrão.
+todo construtor tem o mesmo nome da sua classe.
+não tem um tipo de retorno;

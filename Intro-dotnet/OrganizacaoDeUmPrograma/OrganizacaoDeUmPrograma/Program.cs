@@ -1,20 +1,40 @@
 ﻿using CommonClasses.Common.Models;
 
-List<string> listaString = new List<string>();
 
-listaString.Add("SP");
-listaString.Add("BA");
-listaString.Add("MG");
 
-for(int contador=0;contador < listaString.Count ;contador++)
- {
-  Console.WriteLine(listaString[contador]);
- }
+int qt = int.Parse(Console.ReadLine());
 
-foreach(string valor in listaString)
-{
-    Console.WriteLine(valor);
-}
+
+
+// int n = 34; //int.Parse(Console.ReadLine());
+// int p = 1, s = 0;
+// while (n > 0)
+// {
+//     int l = n % 10;
+//     // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//     p *= l;
+//     s += l ;
+//     n /= 10 ;
+//  }
+
+// Console.WriteLine(p-s);
+
+
+// List<string> listaString = new List<string>();
+
+// listaString.Add("SP");
+// listaString.Add("BA");
+// listaString.Add("MG");
+
+// for(int contador=0;contador < listaString.Count ;contador++)
+//  {
+//   Console.WriteLine(listaString[contador]);
+//  }
+
+// foreach(string valor in listaString)
+// {
+//     Console.WriteLine(valor);
+// }
 
 // int[] arrayInteiros = new int[4];
 
