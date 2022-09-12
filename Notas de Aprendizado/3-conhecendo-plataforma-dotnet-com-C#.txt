@@ -116,3 +116,10 @@ construtores
 criar valores padrão.
 todo construtor tem o mesmo nome da sua classe.
 não tem um tipo de retorno;
+
+Exceções e Coleções com C#
+
+stack tracing pista do erro.
+
+fila = queue
+
