@@ -123,3 +123,6 @@ stack tracing pista do erro.
 
 fila = queue
 
+pilha - stack
+
+dictionary = json.

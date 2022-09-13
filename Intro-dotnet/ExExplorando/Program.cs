@@ -1,64 +1,73 @@
 ﻿using ExExplorando.Models;
 using System.Globalization;
+LeituraFile arquivo = new LeituraFile();
 
-Dictionary<string, string> estados = new Dictionary<string, string>();
+int numero = 21;
+bool ePar = false;
 
-estados.Add("SP", "SAO PAULO");
-estados.Add("RJ", "RIO DE JANEIRO");
-estados.Add("AC", "ACRE");
- //foreach(KeyValuePair<string, string> item in estados)
- foreach(var item in estados)
- {
-     System.Console.WriteLine(item.Key + " " + item.Value);
- }
+ePar = numero % 2 == 0;
 
-estados.Remove("SP");
+Console.WriteLine(ePar? "par" : "impar");
 
-foreach(var item in estados)
- {
-     System.Console.WriteLine(item.Key + " " + item.Value);
- }
 
-// Stack<int> pilha = new Stack<int>();
 
-// pilha.Push(1);
-// pilha.Push(2);
-// pilha.Push(3);
-// pilha.Push(4);
 
-// foreach(int item in pilha)
+
+
+
+
+// Pessoa p1 = new Pessoa("Alberto", "Lotz");
+
+// (string nome, string sobrenome) = p1;
+
+// System.Console.WriteLine(nome + " " + sobrenome);
+
+
+
+
+
+
+
+//var(sucesso, linhasArquivo, quantidadeLinhas)= arquivo.LerArquivo("zArquivos/arquivoLeitura.txt");
+// _ = descarte
+// var(sucesso, linhasArquivo, _)= arquivo.LerArquivo("zArquivos/arquivoLeitura.txt");
+// if(sucesso)
 // {
-//     System.Console.WriteLine(item);
+//     //Console.WriteLine("Qtd Linhas: " + quantidadeLinhas);
+//     foreach(string linha in linhasArquivo)
+//     {
+//         Console.WriteLine(linha);
+//     }
+// }
+// else
+// {
+//     System.Console.WriteLine("não foi possivel ver o arquivo.");
 // }
 
-// pilha.Pop();
-
-// foreach(int item in pilha)
-// {
-//     System.Console.WriteLine(item);
-// }
-
-// Queue<int> fila = new Queue<int>();
-
-// fila.Enqueue(2);
-// fila.Enqueue(3);
-// fila.Enqueue(4);
-// fila.Enqueue(5);
-// fila.Enqueue(6);
-// fila.Enqueue(7);
-// fila.Enqueue(8);
-
-// foreach( int item in fila)
-// {
-//     System.Console.WriteLine(item);
-// }
-
-// fila.Dequeue();
-
-// foreach( int item in fila)
-// {
-//     System.Console.WriteLine(item);
-// }
+//
+////mais indicado para legibilidade do codigo.
+//(int, string, string,decimal) tupla = (1, "Alberto", "lotz",10.04M);
+//
+//System.Console.WriteLine($"Codigo: {tupla.Item1}");
+//System.Console.WriteLine($"None: {tupla.Item2}");
+//System.Console.WriteLine($"Sobre Nome: {tupla.Item3}");
+//System.Console.WriteLine($"Salario: {tupla.Item4}");
+//
+//ValueTuple<int, string, string, decimal> outroExTupla = (1, "Alberto", "lotz",10.04M);
+//
+//System.Console.WriteLine($"Codigo: {outroExTupla.Item1}");
+//System.Console.WriteLine($"None: {outroExTupla.Item2}");
+//System.Console.WriteLine($"Sobre Nome: {outroExTupla.Item3}");
+//System.Console.WriteLine($"Salario: {outroExTupla.Item4}");
+//
+//var tupla3 = Tuple.Create(1, "Alberto", "lotz",10.04M);
+//
+//System.Console.WriteLine($"Codigo: {tupla3.Item1}");
+//System.Console.WriteLine($"None: {tupla3.Item2}");
+//System.Console.WriteLine($"Sobre Nome: {tupla3.Item3}");
+//System.Console.WriteLine($"Salario: {tupla3.Item4}");
+//
+//
 
 
 
