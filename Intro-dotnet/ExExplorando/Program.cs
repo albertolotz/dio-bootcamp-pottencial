@@ -2,14 +2,75 @@
 using System.Globalization;
 using Newtonsoft.Json;
 
-string conteudoFile = File.ReadAllText("Arquivos/vendas.json");
+int numero = 21;
+bool par = false;
 
-List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoFile);
+par = numero.EhPar();
 
-foreach(Venda venda in listaVenda)
-{
-    Console.WriteLine($"Id:{venda.Id} , Produto:{venda.Produto} , Preço:{venda.Preco} , Data:{venda.DataVenda}");
-}
+string mensagem = (par ? "par" : "impar");
+
+System.Console.WriteLine(mensagem);
+
+
+
+
+// MeuArray<int> arrayInteiro = new MeuArray<int>();
+
+// arrayInteiro.AdicinarElementoArray(2);
+
+// Console.WriteLine(arrayInteiro[0]);
+
+//dynamic variavelDinamica = "4";
+
+//System.Console.WriteLine(variavelDinamica.GetType() + " " + variavelDinamica);
+
+
+
+//string conteudoFile = File.ReadAllText("Arquivos/vendas.json");
+//List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoFile);
+//
+//var listaAnonimo = listaVenda.Select(x => new { x.Produto, x.Preco });
+//
+//foreach(var venda in listaAnonimo)
+//{
+//    //Console.WriteLine($"Id:{venda.Id} , Produto:{venda.Produto} , Preço:{venda.Preco} , Data:{venda.DataVenda}, Desconto: {(venda.Desconto.HasValue? venda.Desconto : "Null")}");
+//    Console.WriteLine($"Produto:{venda.Produto} , Preço:{venda.Preco}");
+//}
+
+
+
+//var tipoAnomimo = new { Nome = "Alberto", SobreNome = "Lotz", Altura = 2 };
+//
+//System.Console.WriteLine(tipoAnomimo.Nome);
+
+
+
+
+
+//bool? desejaReceberEmail = null;
+
+//if(desejaReceberEmail.HasValue && desejaReceberEmail.Value)
+// if(desejaReceberEmail != null && desejaReceberEmail.Value)
+// {
+//     System.Console.WriteLine("Recebe Email");
+// }
+// else
+// {
+//     System.Console.WriteLine("Não Recebe");
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
