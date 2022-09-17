@@ -126,3 +126,9 @@ fila = queue
 pilha - stack
 
 dictionary = json.
+
+**Nuget, Serializar e Atributos no C#**
+
+iso 8601 = FORMATO DA DATA, padrão.
+
+

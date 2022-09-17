@@ -13,3 +13,5 @@ C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.pdb
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.genruntimeconfig.cache
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ref\ExExplorando.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\bin\Debug\net6.0\Newtonsoft.Json.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Intro-dotnet\ExExplorando\obj\Debug\net6.0\ExExplorando.csproj.CopyComplete

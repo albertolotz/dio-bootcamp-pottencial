@@ -1,13 +1,64 @@
 ﻿using ExExplorando.Models;
 using System.Globalization;
-LeituraFile arquivo = new LeituraFile();
+using Newtonsoft.Json;
 
-int numero = 21;
-bool ePar = false;
+string conteudoFile = File.ReadAllText("Arquivos/vendas.json");
 
-ePar = numero % 2 == 0;
+List<Venda> listaVenda = JsonConvert.DeserializeObject<List<Venda>>(conteudoFile);
 
-Console.WriteLine(ePar? "par" : "impar");
+foreach(Venda venda in listaVenda)
+{
+    Console.WriteLine($"Id:{venda.Id} , Produto:{venda.Produto} , Preço:{venda.Preco} , Data:{venda.DataVenda}");
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// LeituraFile arquivo = new LeituraFile();
+
+// List<Venda> listaVendas = new List<Venda>();
+
+// DateTime dataAtual = DateTime.Now;
+
+// Venda v1 = new Venda(1, "Bola", 33.00M,dataAtual);
+// Venda v2 = new Venda(2, "taco", 13.00M, dataAtual);
+
+// listaVendas.Add(v1);
+// listaVendas.Add(v2);
+
+// string serializado = JsonConvert.SerializeObject(listaVendas, Formatting.Indented);
+
+// System.Console.WriteLine(serializado);
+
+// File.WriteAllText("Arquivos/vendas.json", serializado);
+
+
+
+
+
+
+
+//int numero = 21;
+// bool ePar = false;
+
+// ePar = numero % 2 == 0;
+
+// Console.WriteLine(ePar? "par" : "impar");
 
 
 
