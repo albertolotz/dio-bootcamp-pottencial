@@ -132,3 +132,17 @@ dictionary = json.
 iso 8601 = FORMATO DA DATA, padrão.
 
 
+===Tipos Especiais no C# ===
+? logo apos o nome da variavel pode receber nulo/null
+T = type tipo
+
+++ Stack, Heap e Garbage Collector no C# ++
+
+stack - variavel  - simples
+heap - objeto com ref. para uma veriavel na steck complexo
+garbage conelecto - limpa a memoria.
+tipo primitivo facil de ser implementado
+tipo de referencia - mais complexo mai dados.
+memoria head não ordem especifica para remover dados, mais especifica
+
+

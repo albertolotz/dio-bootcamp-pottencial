@@ -1,15 +1,99 @@
-﻿using ExExplorando.Models;
-using System.Globalization;
-using Newtonsoft.Json;
+﻿
+using System;
+using System.Text.RegularExpressions;
 
-int numero = 21;
-bool par = false;
+public class Program
+{
+    public static void Main(String[] args)
+    {
+        int n = int.Parse(Console.ReadLine());
+        
+        int[] num = new int[n];
+        Dictionary<int, int> frequencia = new Dictionary<int, int>();
 
-par = numero.EhPar();
+        // TODO: Crie as outras condições necessárias para a resolução do desafio:
+        for (int i = 0; i < num.Count() ;i++)
+        {
+            num[i] = int.Parse(Console.ReadLine());
+        }
+        
+        Console.WriteLine(MajorityElement(num));
+        
+    }
+    public static int MajorityElement(int[] nums)
+    {
+        var dictSource = nums.ToLookup(x => x);
+        foreach(IGrouping<int,int> n in dictSource){
+            System.Console.WriteLine(n.Key);
+        }
+        //var numberOfModes = dictSource.Max(x => x.Count());
+        //var modes = dictSource.Where(x => x.Count() == numberOfModes).Select(x => x.Key);
 
-string mensagem = (par ? "par" : "impar");
+        
+        return   0 ;
+    }
+}
 
-System.Console.WriteLine(mensagem);
+
+// using ExExplorando.Models;
+// using System.Globalization;
+// using Newtonsoft.Json;
+
+
+// using System;
+// using System.Text.RegularExpressions;
+
+// public class Program
+// {
+//     public static void Main(String[] args)
+//     {
+//         int n = int.Parse(Console.ReadLine());
+        
+//         int[] num = new int[n];
+
+//         // TODO: Crie as outras condições necessárias para a resolução do desafio:
+//         for (int i = 0; i < n ;i++)
+//         {
+//             num[i] = int.Parse(Console.ReadLine());
+//         }
+//         Console.WriteLine(MajorityElement(num));
+        
+//     }
+//     public static int MajorityElement(int[] nums)
+//     {
+//         int major = nums[0];
+//         int count = 1;
+//         for (int i = 0; i < count; i++)
+//         {
+//             if (major == nums[i] )
+//             {
+//                 major = nums[i];
+//                 count++;
+//             }
+//             else
+//             {
+//                 if (major == nums[i])
+//                 {
+//                     count++;
+//                 }
+//                 else
+//                 {
+//                     count--;
+//                 }
+//             }
+//         }
+//         return nums[0];
+//     }
+// }
+
+// int numero = 21;
+// bool par = false;
+
+// par = numero.EhPar();
+
+// string mensagem = (par ? "par" : "impar");
+
+// System.Console.WriteLine(mensagem);
 
 
 
