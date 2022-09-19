@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\bin\Debug\net6.0\ExPoo.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\bin\Debug\net6.0\ExPoo.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\bin\Debug\net6.0\ExPoo.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\bin\Debug\net6.0\ExPoo.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\bin\Debug\net6.0\ExPoo.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\refint\ExPoo.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ExPoo.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\trilha-Orientacao Objetos com C#\ExPoo\obj\Debug\net6.0\ref\ExPoo.dll

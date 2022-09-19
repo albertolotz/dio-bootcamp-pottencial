@@ -1,0 +1,17 @@
+Paradigma - tecnica, conjunto de regras, uma maneira.
+
+classes - representação de um objeto do mundo real
+objetos - classe concretizada, implementação da classe.
+
+
+Abstração - abstrair um objeto do mundo real para um contexto especifico
+considerando apenas os atrobutos importentes.
+
+
+Encapsulamento - proteger uma classe e definir limites.
+private = visivel apenas na classe.
+public = disponivel em todo sistema.
+
+Herança
+
+Poliformismo
