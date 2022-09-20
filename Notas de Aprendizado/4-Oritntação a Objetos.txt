@@ -12,6 +12,24 @@ Encapsulamento - proteger uma classe e definir limites.
 private = visivel apenas na classe.
 public = disponivel em todo sistema.
 
-Herança
+Herança - reutilizar metodos e comportamentos.
+agrupa mesmo tipo com caracteristica diferente.
+não repete codigo.
 
-Poliformismo
+Poliformismo - muitas formas . sobrescrever metodos das classes filhas
+
+classe abstrata: é um modelo, não pode ser instanciada.
+deve ser herdada.
+
+protected proteje de alteracao externa mas libera para classes filhas.
+
+Abstract so pode ser herdado.
+
+classe selada - impede que pode ser herdada. metodo e propriedade 
+qunado vc não quer que a classe tenha outros filhos.
+
+classe object -> classe mae todas as classes herdam dela.
+
+interface - contrado que pode ser implementado
+implementar e não herdar.
+

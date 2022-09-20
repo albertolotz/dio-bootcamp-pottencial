@@ -1,19 +1,38 @@
 ﻿using ExPoo.Models;
 
 
-Aluno a1 = new Aluno();
-a1.Nome = "Alberto";
-a1.Idade = 45;
-a1.Email = "a@b.com";
-a1.Nota = 9.0;
-a1.Apresentar();
 
-Professor p1 = new Professor();
-p1.Nome = "Alberto profi";
-p1.Idade = 45;
-p1.Email = "a@b.com";
-p1.Salario = 3.500m;
-p1.Apresentar();
+
+
+
+
+//Computador cp = new Computador();
+
+
+
+// Pessoa p1 = new Pessoa("alberto");
+// Aluno a1 = new Aluno("Roberto");
+
+// Corrente cc1 = new Corrente();
+
+// cc1.Creditar(200);
+// cc1.ExibirSaldo();
+
+
+
+// Aluno a1 = new Aluno();
+// a1.Nome = "Alberto";
+// a1.Idade = 45;
+// a1.Email = "a@b.com";
+// a1.Nota = 9.0;
+// a1.Apresentar();
+
+// Professor p1 = new Professor();
+// p1.Nome = "Alberto profi";
+// p1.Idade = 45;
+// p1.Email = "a@b.com";
+// p1.Salario = 3.500m;
+// p1.Apresentar();
 
 
 
