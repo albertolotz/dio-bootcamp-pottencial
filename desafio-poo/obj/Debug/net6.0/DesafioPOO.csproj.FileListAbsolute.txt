@@ -1,0 +1,15 @@
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\bin\Debug\net6.0\DesafioPOO.exe
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\bin\Debug\net6.0\DesafioPOO.deps.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\bin\Debug\net6.0\DesafioPOO.runtimeconfig.json
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\bin\Debug\net6.0\DesafioPOO.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\bin\Debug\net6.0\DesafioPOO.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.csproj.AssemblyReference.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.AssemblyInfoInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.AssemblyInfo.cs
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.csproj.CoreCompileInputs.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\refint\DesafioPOO.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.pdb
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\DesafioPOO.genruntimeconfig.cache
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\desafio-poo\obj\Debug\net6.0\ref\DesafioPOO.dll
