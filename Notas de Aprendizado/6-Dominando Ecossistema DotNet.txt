@@ -1,0 +1,15 @@
+**Principais Protocolos de Comunicação da Internet
+HPPT
+
+connection: close = nao peresistente
+
+accept-language: idiona
+90%get = consumir, buscar
+q=qualidade 0.8
+
+**Introdução as APIs com C# **
+
+API - sot fornnece informação de um soft para ou soft.
+dotnet tool install --global dotnet-ef
+
+
