@@ -1,0 +1,7 @@
+principio de design
+S = Single responsabilidade
+O = Open/Closed principle
+L = Liskov substitution
+I = Interface segragation
+D = Inversão de dependencia
+

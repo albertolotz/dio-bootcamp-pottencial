@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "zAPNqWuMHkv4NoJMbyA+hvlULrxiib1eRXhVCb7wkRA=",
+  "Source": "pgto-api",
+  "BasePath": "_content/pgto-api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
