@@ -1,11 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "41gppYiJ1ynEq4uhKAgW2bxe2FH5mcl5OuiLb5GJA90xV2xiAVqErMZ1mwWoW6CXZY8ZiW8F5Scy0xYVWGzLbw==",
+  "dgSpecHash": "xJgb8DAQbYa3+yh53UBKaI1utK7BDg4Xvi1prDzH4jbKBE6lotSEOz8hleOVorxo6FrLbPuCVmt3BTcRoewkdA==",
   "success": true,
   "projectFilePath": "C:\\Projetos Local\\BootCampDio\\dio-bootcamp-pottencial\\Doc\\Doc.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\alber\\.nuget\\packages\\automapper\\12.0.0\\automapper.12.0.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.0\\automapper.extensions.microsoft.dependencyinjection.12.0.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\fluentvalidation\\11.0.0\\fluentvalidation.11.0.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\fluentvalidation.aspnetcore\\11.0.0\\fluentvalidation.aspnetcore.11.0.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\fluentvalidation.dependencyinjectionextensions\\11.0.0\\fluentvalidation.dependencyinjectionextensions.11.0.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\alber\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\alber\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\alber\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.9\\microsoft.entityframeworkcore.6.0.9.nupkg.sha512",

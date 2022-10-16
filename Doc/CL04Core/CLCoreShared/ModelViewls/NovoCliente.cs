@@ -3,17 +3,14 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace CL04Core.Domain
+namespace Doc.CL04Core.CLCoreShared.ModelViewls
 {
-    public class Cliente
+    public class NovoCliente
     {
-        public int Id { get; set; }
         public string Nome { get; set; }
         public DateTime DataNascimento { get; set; }
         public string Sexo { get; set; }
         public string Telefone { get; set; }
         public string Documento { get; set; }
-        public DateTime Criacao { get; set; }
-        public DateTime? UltimaAtualizacao { get; set; }
     }
 }

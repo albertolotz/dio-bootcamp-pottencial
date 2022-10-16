@@ -59,3 +59,8 @@ C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\obj\Debug\net6.0\refin
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\obj\Debug\net6.0\Doc.pdb
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\obj\Debug\net6.0\Doc.genruntimeconfig.cache
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\obj\Debug\net6.0\ref\Doc.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\FluentValidation.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\FluentValidation.AspNetCore.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\AutoMapper.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll

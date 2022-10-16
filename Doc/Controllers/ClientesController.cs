@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using CL04Core.Domain;
 using Doc.CL02Manager.Interfaces;
+using Doc.CL04Core.CLCoreShared.ModelViewls;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -30,16 +31,16 @@ namespace Doc.Controllers
         }
 
         [HttpPost]
-        public async Task<ActionResult> Post(Cliente cliente)
+        public async Task<ActionResult> Post(NovoCliente novoCliente)
         {
-            var clienteInserido = await _clienteManager.InsertClienteAsync(cliente);
-            return CreatedAtAction(nameof(Get),new {id = cliente.Id}, cliente);
+            var clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
+            return CreatedAtAction(nameof(Get),new {id = clienteInserido.Id}, clienteInserido);
         }
 
         [HttpPut]
-        public async Task<ActionResult> Put(Cliente cliente)
+        public async Task<ActionResult> Put(AlteraCliente alteraCliente)
         {
-            var clienteAtualizado = await _clienteManager.UpdateClienteAsync(cliente);
+            var clienteAtualizado = await _clienteManager.UpdateClienteAsync(alteraCliente);
             if(clienteAtualizado==null)
             {
                 return NotFound();
