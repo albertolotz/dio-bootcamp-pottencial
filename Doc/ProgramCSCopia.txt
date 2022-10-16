@@ -7,7 +7,6 @@ using FluentValidation.AspNetCore;
 using Doc.CL02Manager.Validator;
 using System.Globalization;
 using Doc.CL02Manager.Mapping;
-using Doc.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
@@ -15,25 +14,34 @@ var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<ClContext>(options =>
 options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
 
-builder.Services.AddDependencyInjectionConfiguration();
+builder.Services.AddScoped<IClienteRepository, ClienteRepository>();
+builder.Services.AddScoped<IClienteManager, ClienteManager>();
 
-builder.Services.AddControllers();
+builder.Services.AddControllers()
+    .AddFluentValidation(fv => 
+        {
+            fv.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
+            fv.RegisterValidatorsFromAssemblyContaining <AlteraClienteValidator>();
+            fv.ValidatorOptions.LanguageManager.Culture = new CultureInfo("pt-BR");
+        });
 
-builder.Services.AddFluentValidationConfiguration();
 
-builder.Services.AddAutoMapperConfiguration();
+builder.Services.AddAutoMapper(
+    typeof(NovoClienteMappingProfile), 
+    typeof(AlteraClienteMappingProfile)
+    ); // adicinar outros, colocar , e add
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
 builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddSwaggerConfiguration(); // esta é uma chamada pergonalizada.
+builder.Services.AddSwaggerGen();
 
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
 if (app.Environment.IsDevelopment())
 {
-    app.UseSwaggerConfiguration(); // esta é uma chamada personalizada
+    app.UseSwagger();
+    app.UseSwaggerUI();
 }
 
 app.UseHttpsRedirection();
