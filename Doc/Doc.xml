@@ -1,0 +1,83 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Doc</name>
+    </assembly>
+    <members>
+        <member name="T:Doc.CL04Core.CLCoreShared.ModelViewls.AlteraCliente">
+            <summary>
+            Objeto utilizado para editar cliente.
+            </summary>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.AlteraCliente.Id">
+            <summary>
+            ID do Cliente
+            </summary>
+            <Example>999</Example>
+        </member>
+        <member name="T:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente">
+            <summary>
+            Objeto utilizado para inserir novo cliente.
+            </summary>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Nome">
+            <summary>
+            Nome Completo do Cliente
+            </summary>
+            <Example>Fulano de Tal</Example>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.DataNascimento">
+            <summary>
+            Data de Nascimento do Cliente
+            </summary>
+            <Example>2000-10-12</Example>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Sexo">
+            <summary>
+            Sexo do Cliente F=Feminino, M=Masculino I=Indefinido
+            </summary>
+            <Example>F</Example>       
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Telefone">
+            <summary>
+            Telefone principal do Cliente
+            </summary>
+            <Example>29999999999</Example>        
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Documento">
+            <summary>
+            Documento Identificação do Cliente CPF, CHN, RG
+            </summary>
+            <Example>9999999999</Example>
+        </member>
+        <member name="M:Doc.Controllers.ClientesController.get">
+            <summary>
+            Retorna todos os clientes cadastrados e ativos.
+            </summary>
+        </member>
+        <member name="M:Doc.Controllers.ClientesController.Get(System.Int32)">
+            <summary>
+            Retorna um cliente com base no ID.
+            </summary>
+            <param name="id" example="999">ID do Cliente</param>
+        </member>
+        <member name="M:Doc.Controllers.ClientesController.Post(Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente)">
+            <summary>
+            Cadastra um novo cliente.
+            </summary>
+            <param name="novoCliente"></param>
+        </member>
+        <member name="M:Doc.Controllers.ClientesController.Put(Doc.CL04Core.CLCoreShared.ModelViewls.AlteraCliente)">
+            <summary>
+            Edita um cliente pesquisando pelo ID informado.
+            </summary>
+            <param name="alteraCliente"></param>
+        </member>
+        <member name="M:Doc.Controllers.ClientesController.Delete(System.Int32)">
+            <summary>
+            Apaga um cliente com referencia no ID informado.
+            </summary>
+            <param name="id" example="999">ID do Cliente</param>
+        </member>
+    </members>
+</doc>

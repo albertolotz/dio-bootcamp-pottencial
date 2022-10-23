@@ -1,6 +1,7 @@
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using Microsoft.OpenApi.Models;
 
@@ -12,7 +13,28 @@ namespace Doc.Configuration
         {
             services.AddSwaggerGen(c=>
             {
-                c.SwaggerDoc("v1", new OpenApiInfo { Title = "DOC API", Version = "v1" });
+                c.SwaggerDoc("v1", new OpenApiInfo 
+                { 
+                    Title = "DOC API", 
+                    Version = "v1",
+                    Description = "API para estudo",
+                    Contact = new OpenApiContact
+                    {
+                        Name = "Alberto Lotz",
+                        Email = "alberto10lotz@gmail.com",
+                        Url = new Uri("https://github.com/albertolotz")
+                    },
+                    License = new OpenApiLicense
+                    {
+                        Name = "OSD",
+                        Url = new Uri("https://github.com/albertolotz")
+                    },
+                    TermsOfService = new Uri("https://github.com/albertolotz")
+                });
+
+                var xmlFile = $"{Assembly.GetExecutingAssembly().GetName().Name}.xml";
+                var xmlPath = Path.Combine(AppContext.BaseDirectory, xmlFile);
+                c.IncludeXmlComments(xmlPath);
             });
         }
 
@@ -23,8 +45,3 @@ namespace Doc.Configuration
         }
     }
 }
-
-//c=>{
-//c.RoutePrefix = string.Empty;
-//c.SwaggerEndpoint("./swagger/v1/swagger.json", "CL V1");
-//}

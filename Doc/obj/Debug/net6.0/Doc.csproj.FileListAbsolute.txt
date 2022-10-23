@@ -64,3 +64,4 @@ C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\Fluen
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\FluentValidation.DependencyInjectionExtensions.dll
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\AutoMapper.dll
 C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Projetos Local\BootCampDio\dio-bootcamp-pottencial\Doc\bin\Debug\net6.0\Doc.xml

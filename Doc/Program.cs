@@ -1,19 +1,19 @@
-using CL03Data.Context;
-using Doc.CL02Manager.Interfaces;
-using Doc.CL02Manager.Interfaces.Implementation;
-using Doc.CL03Data.Repository;
-using Microsoft.EntityFrameworkCore;
-using FluentValidation.AspNetCore;
-using Doc.CL02Manager.Validator;
-using System.Globalization;
-using Doc.CL02Manager.Mapping;
+//using CL03Data.Context;
+//using Doc.CL02Manager.Interfaces;
+//using Doc.CL02Manager.Interfaces.Implementation;
+//using Doc.CL03Data.Repository;
+//using Microsoft.EntityFrameworkCore;
+//using FluentValidation.AspNetCore;
+//using Doc.CL02Manager.Validator;
+//using System.Globalization;
+//using Doc.CL02Manager.Mapping;
 using Doc.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
-builder.Services.AddDbContext<ClContext>(options =>
-options.UseSqlServer(builder.Configuration.GetConnectionString("ConexaoPadrao")));
+
+builder.Services.AddDatabaseConfiguration(builder.Configuration);
 
 builder.Services.AddDependencyInjectionConfiguration();
 
@@ -35,6 +35,7 @@ if (app.Environment.IsDevelopment())
 {
     app.UseSwaggerConfiguration(); // esta é uma chamada personalizada
 }
+app.UseDatabaseConfiguration();
 
 app.UseHttpsRedirection();
 
