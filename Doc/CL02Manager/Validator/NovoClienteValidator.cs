@@ -17,6 +17,8 @@ namespace Doc.CL02Manager.Validator
             RuleFor(x => x.Documento).NotNull().NotEmpty().MinimumLength(4).MaximumLength(14);
             RuleFor(x => x.Telefone).NotNull().NotEmpty().Matches("[2-9][0-9]{10}").WithMessage("Formato esperado: [2-9][0-9]{10}");
             RuleFor(x => x.Sexo).NotNull().NotEmpty().Must(IsMorF).WithMessage("Opções validas para Sexo: F , M ou I");
+            RuleFor(x => x.Endereco).SetValidator(new NovoEnderecoValidator());
+
         }
 
         private bool IsMorF(string sexo)

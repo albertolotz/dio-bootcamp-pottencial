@@ -15,40 +15,63 @@
             </summary>
             <Example>999</Example>
         </member>
-        <member name="T:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente">
-            <summary>
-            Objeto utilizado para inserir novo cliente.
-            </summary>
-        </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Nome">
             <summary>
-            Nome Completo do Cliente
+            Nome do Cliente
             </summary>
-            <Example>Fulano de Tal</Example>
+            <example>Fulano de Tal</example> 
         </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.DataNascimento">
             <summary>
             Data de Nascimento do Cliente
             </summary>
-            <Example>2000-10-12</Example>
+            <example>2000-10-12</example>
         </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Sexo">
             <summary>
             Sexo do Cliente F=Feminino, M=Masculino I=Indefinido
             </summary>
-            <Example>F</Example>       
+            <example>F</example>      
         </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Telefone">
             <summary>
             Telefone principal do Cliente
             </summary>
-            <Example>29999999999</Example>        
+            <example>29999999999</example>        
         </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Documento">
             <summary>
             Documento Identificação do Cliente CPF, CHN, RG
             </summary>
-            <Example>9999999999</Example>
+            <example>9999999999</example>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Endereco">
+            <summary>
+            Endereço do Cliente.
+            </summary>
+        </member>
+        <member name="T:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco">
+            <summary>
+            
+            </summary>
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Cep">
+            <example>14800999</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Estado">
+            <example>SP</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Cidade">
+            <example>Araraquara</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Logradouro">
+            <example>Rua das soluções</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Numero">
+            <example>876</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Complemento">
+            <example>Casa 2</example> 
         </member>
         <member name="M:Doc.Controllers.ClientesController.get">
             <summary>

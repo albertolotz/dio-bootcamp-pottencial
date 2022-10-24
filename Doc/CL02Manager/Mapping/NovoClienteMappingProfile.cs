@@ -15,6 +15,8 @@ namespace Doc.CL02Manager.Mapping
             CreateMap<NovoCliente, Cliente>()
                 .ForMember(destino => destino.Criacao, origem => origem.MapFrom(valor => DateTime.Now))
                 .ForMember(destino => destino.DataNascimento, origem => origem.MapFrom(valor => valor.DataNascimento.Date));
+
+            CreateMap<NovoEndereco, Endereco>();
         }
     }
 }

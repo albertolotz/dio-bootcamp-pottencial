@@ -7,40 +7,91 @@
 //using Doc.CL02Manager.Validator;
 //using System.Globalization;
 //using Doc.CL02Manager.Mapping;
+//using System;
 using Doc.Configuration;
+using Serilog;
 
-var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
+IConfigurationRoot configurationLog = GetConfigurationLog();
 
-builder.Services.AddDatabaseConfiguration(builder.Configuration);
+ConfiguraLog(configurationLog);
 
-builder.Services.AddDependencyInjectionConfiguration();
-
-builder.Services.AddControllers();
-
-builder.Services.AddFluentValidationConfiguration();
-
-builder.Services.AddAutoMapperConfiguration();
-
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-
-builder.Services.AddSwaggerConfiguration(); // esta é uma chamada pergonalizada.
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
+try
 {
-    app.UseSwaggerConfiguration(); // esta é uma chamada personalizada
+    Log.Information("Iniciando WEB API........");
+
+    var builder = WebApplication.CreateBuilder(args);
+
+    //log 
+    builder.Host.UseSerilog();
+
+    // Add services to the container.
+
+    builder.Services.AddDatabaseConfiguration(builder.Configuration);
+
+    builder.Services.AddDependencyInjectionConfiguration();
+
+    builder.Services.AddControllers();
+
+    builder.Services.AddFluentValidationConfiguration();
+
+    builder.Services.AddAutoMapperConfiguration();
+
+    // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+    builder.Services.AddEndpointsApiExplorer();
+
+    builder.Services.AddSwaggerConfiguration(); // esta é uma chamada pergonalizada.
+
+    var app = builder.Build();
+    
+    // Configure the HTTP request pipeline.
+    app.UseExceptionHandler("/error");
+
+    if (app.Environment.IsDevelopment())
+    {
+        app.UseDeveloperExceptionPage();
+    }
+
+    app.UseDatabaseConfiguration();
+
+     app.UseSwaggerConfiguration(); // esta é uma chamada personalizada
+
+    app.UseHttpsRedirection();
+
+    app.UseAuthorization();
+
+    app.MapControllers();
+
+    app.Run();
+
 }
-app.UseDatabaseConfiguration();
+catch (Exception ex)
+{
+    Log.Fatal(ex, "Erro geral");
+    throw;
+}
+finally
+{
+    Log.CloseAndFlush();
+}
 
-app.UseHttpsRedirection();
+//metodos pessoais
 
-app.UseAuthorization();
+static IConfigurationRoot GetConfigurationLog()
+{
+    string ambiente = Environment.GetEnvironmentVariable("ASPNETCORE_ENVIRONMENT");
 
-app.MapControllers();
+    var configurationLog = new ConfigurationBuilder()
+        .SetBasePath(Directory.GetCurrentDirectory())
+        .AddJsonFile("appsettings.json")
+        .AddJsonFile($"appsettings.{ambiente}.json", optional: true)
+        .Build();
+    return configurationLog;
+}
 
-app.Run();
+static void ConfiguraLog(IConfigurationRoot configurationLog)
+{
+    Log.Logger = new LoggerConfiguration()
+        .ReadFrom.Configuration(configurationLog)
+        .CreateLogger();
+}

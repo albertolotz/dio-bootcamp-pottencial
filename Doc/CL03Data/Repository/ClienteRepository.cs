@@ -16,7 +16,9 @@ namespace Doc.CL03Data.Repository
 
         public async Task<IEnumerable<Cliente>> GetClientesAsync()
         {
-            return await _context.Clientes.AsNoTracking().ToListAsync();
+            return await _context.Clientes
+                .Include(p=>p.Endereco) 
+                .AsNoTracking().ToListAsync();
         }
 
         public async Task<Cliente> GetClientesAsync(int id)
@@ -24,7 +26,9 @@ namespace Doc.CL03Data.Repository
             // op1: return await _context.Clientes.Where(c => c.Id == id).FirstOrDefaultAsync();
             // op2:return await _context.Clientes.AsNoTracking().FirstOrDefaultAsync(c => c.Id == id);
             // op2:return await _context.Clientes.AsNoTracking().SingleOrDefaultAsync(c => c.Id == id);
-            return await _context.Clientes.FindAsync(id); // mais indicado devido a permance e ser PK a busca
+            return await _context.Clientes
+                .Include(p=>p.Endereco)
+                .SingleOrDefaultAsync(p=> p.Id == id); // mais indicado devido a permance e ser PK a busca
         }
 
         public async Task<Cliente> InsertClienteAsync(Cliente cliente)

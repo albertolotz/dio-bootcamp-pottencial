@@ -6,7 +6,7 @@ using CL04Core.Domain;
 using Doc.CL02Manager.Interfaces;
 using Doc.CL04Core.CLCoreShared.ModelViewls;
 using Microsoft.AspNetCore.Mvc;
-
+using SerilogTimings;
 
 namespace Doc.Controllers
 {
@@ -15,7 +15,12 @@ namespace Doc.Controllers
     public class ClientesController : ControllerBase
     {
         private readonly IClienteManager _clienteManager;
-        public ClientesController(IClienteManager clienteManager) => _clienteManager = clienteManager;
+        private readonly ILogger<ClientesController> _logger;
+        public ClientesController(IClienteManager clienteManager, ILogger<ClientesController> logger)
+        {
+            _clienteManager = clienteManager;
+            _logger = logger;
+        }         
 
         /// <summary>
         /// Retorna todos os clientes cadastrados e ativos.
@@ -50,8 +55,18 @@ namespace Doc.Controllers
         [ProducesResponseType(typeof(ProblemDetails), StatusCodes.Status500InternalServerError)]        
         public async Task<ActionResult> Post(NovoCliente novoCliente)
         {
-            var clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
+            _logger.LogInformation($"Objeto Recebido: {@novoCliente}",novoCliente);
+
+            Cliente clienteInserido;
+            
+            using(Operation.Time("Tempo gasto para adicionar novo cliente:"))
+            {
+                _logger.LogInformation("#MyInfo: Foi enviado uma requisição para criar um novo clinte");
+                clienteInserido = await _clienteManager.InsertClienteAsync(novoCliente);
+            }
             return CreatedAtAction(nameof(Get),new {id = clienteInserido.Id}, clienteInserido);
+
+            //_logger.LogInformation("#MyInfo: Fim da Requisição.");
         }
 
         /// <summary>
