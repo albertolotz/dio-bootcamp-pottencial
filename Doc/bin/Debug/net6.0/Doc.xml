@@ -33,12 +33,6 @@
             </summary>
             <example>F</example>      
         </member>
-        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Telefone">
-            <summary>
-            Telefone principal do Cliente
-            </summary>
-            <example>29999999999</example>        
-        </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoCliente.Documento">
             <summary>
             Documento Identificação do Cliente CPF, CHN, RG
@@ -72,6 +66,12 @@
         </member>
         <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoEndereco.Complemento">
             <example>Casa 2</example> 
+        </member>
+        <member name="P:Doc.CL04Core.CLCoreShared.ModelViewls.NovoTelefone.Numero">
+            <summary>
+            Telefone principal do Cliente
+            </summary>
+            <example>29999999999</example> 
         </member>
         <member name="M:Doc.Controllers.ClientesController.get">
             <summary>

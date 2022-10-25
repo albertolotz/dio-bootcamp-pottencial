@@ -18,6 +18,7 @@ namespace Doc.CL03Data.Repository
         {
             return await _context.Clientes
                 .Include(p=>p.Endereco) 
+                .Include(p=>p.Telefones)
                 .AsNoTracking().ToListAsync();
         }
 
@@ -28,6 +29,7 @@ namespace Doc.CL03Data.Repository
             // op2:return await _context.Clientes.AsNoTracking().SingleOrDefaultAsync(c => c.Id == id);
             return await _context.Clientes
                 .Include(p=>p.Endereco)
+                .Include(p=>p.Telefones)
                 .SingleOrDefaultAsync(p=> p.Id == id); // mais indicado devido a permance e ser PK a busca
         }
 

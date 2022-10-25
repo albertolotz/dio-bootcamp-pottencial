@@ -17,6 +17,7 @@ namespace Doc.CL02Manager.Mapping
                 .ForMember(destino => destino.DataNascimento, origem => origem.MapFrom(valor => valor.DataNascimento.Date));
 
             CreateMap<NovoEndereco, Endereco>();
+            CreateMap<NovoTelefone, Telefone>();
         }
     }
 }

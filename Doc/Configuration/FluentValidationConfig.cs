@@ -18,8 +18,10 @@ namespace Doc.Configuration
                 .AddFluentValidation(fv => 
                     {
                         fv.RegisterValidatorsFromAssemblyContaining<NovoClienteValidator>();
-                        fv.RegisterValidatorsFromAssemblyContaining <AlteraClienteValidator>();
+                        fv.RegisterValidatorsFromAssemblyContaining <NovoTelefoneValidator>();
                         fv.RegisterValidatorsFromAssemblyContaining <NovoEnderecoValidator>();
+                        fv.RegisterValidatorsFromAssemblyContaining <AlteraClienteValidator>();
+                        
                         fv.ValidatorOptions.LanguageManager.Culture = new CultureInfo("pt-BR");
                     });
         }

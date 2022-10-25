@@ -27,11 +27,8 @@ namespace Doc.CL04Core.CLCoreShared.ModelViewls
        /// <example>F</example>      
         public string Sexo { get; set; }
 
-        /// <summary>
-        /// Telefone principal do Cliente
-        /// </summary>
-        /// <example>29999999999</example>        
-        public string Telefone { get; set; }
+               
+       
         
         /// <summary>
         /// Documento Identificação do Cliente CPF, CHN, RG
@@ -42,5 +39,7 @@ namespace Doc.CL04Core.CLCoreShared.ModelViewls
         /// Endereço do Cliente.
         /// </summary>
         public NovoEndereco Endereco { get; set; }
+
+        public ICollection<NovoTelefone> Telefones { get; set; }
     }
 }

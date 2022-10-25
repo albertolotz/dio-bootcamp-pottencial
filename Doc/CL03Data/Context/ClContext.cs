@@ -16,6 +16,7 @@ namespace CL03Data.Context
         
         public DbSet<Cliente> Clientes { get; set; }
         public DbSet<Endereco> Enderecos { get; set; }
+        public DbSet<Telefone> Telefones { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
@@ -23,7 +24,7 @@ namespace CL03Data.Context
 
             modelBuilder.ApplyConfiguration(new ClienteConfig());
             modelBuilder.ApplyConfiguration(new EnderecoConfig());
+            modelBuilder.ApplyConfiguration(new TelefoneConfig());
         }
-
     }
 }
